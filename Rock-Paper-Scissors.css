@@ -1,0 +1,49 @@
+    .title{
+        font-size:30px;
+        font-weight: bold;
+    }
+    .paper,
+    .scissors,
+    .rock{
+        height:50px;
+    }
+    .move-button
+    {
+        border:solid;
+        border-color:white;
+        border-width: 3px;
+        background-color: transparent;
+        border-radius:50%;
+        height:120px;
+        width:120px;
+        cursor:pointer;
+    }
+    .move-button-paper{
+        border:solid;
+        border-color:white;
+        border-width: 3px;
+        background-color: transparent;
+        border-radius:50%;
+        height:120px;
+        width:120px;
+        margin-left:10px;
+        margin-right:10px;
+        cursor:pointer;
+    }
+    .result-text{
+        font-size:25px;
+        font-weight: bold;
+        margin-top:50px;
+    }
+    .reset-button
+    {
+        background-color: white;
+        border:none;
+        font-size:15px;
+        padding:8px 15px;
+        cursor:pointer;
+    }
+    .score
+    {
+        margin-top:60px;
+    }
